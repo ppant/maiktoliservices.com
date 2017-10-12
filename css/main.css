@@ -9,9 +9,9 @@
 body{
    font-family: Verdana, Arial, sans-serif;
    font-style: normal;
-   font-size: 13px;
+   /*font-size: 13px;*/
    line-height: 1.2em;
-   color: black;
+   color: black;   
 }
 
 /* ###### HEADINGS ######  */
@@ -37,14 +37,12 @@ h4{ font-size: 120%;}
 h5{ font-size: 110%;}
 h6{ font-size: 100%;}
 
-p,
-p strong {font-size: 13px;}
-
 a,
 a:hover,
 a:active {
 color: blue; /* RED */
-font-size: inherit;
+font-size: 20px;
+text-align: right;
 }
 #center {
 text-align: center;
@@ -88,19 +86,68 @@ font-size: 150%;
 }
 .maik_logo {
 text-align: center;
+background-color: none;
 }
 /* img { */
     /* opacity: 0.5; */
     /* filter: alpha(opacity=50); /* For IE8 and earlier */ */
 /* } */
-.maik_heading {
+.maik_tagline {
 line-height: 200%;
+font-size: 25px;
+text-align: center;
+color: #e40038;
+}
+.maik_heading {
+line-height: 150%;
+color: black;
+text-shadow: active;
+border: 2px inset red;
+box-shadow: 10px 10px 5px #888888;
+margin-left: 2px;
+margin-right: 2px;
+ text-shadow: 2px 2px #FAEBD7;
+
 }
 .maik_copyright_message {
 text-align: center;
 font-size: 75%;
-color: #e40038;
+color: gray;
+}
+
+.middle {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+.maik_bgimg {
+    /* Background image */
+    /*background-image: url('../img/background-peak1.jpg');
+    /* Full-screen */
+    height: 100%;
+    /* Center the background image */
+    background-position: center;
+    /* Scale and zoom in the image */
+    background-size: cover;
+    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+    position: relative;
+    /* Add a white text color to all elements inside the .bgimg container */
+    color: white;
+    /* Add a font */
+    /*font-family: "Courier New", Courier, monospace;
+    /* Set the font-size to 25 pixels */
+    font-size: 25px;
 }
 .maik_contact {
-font-style: oblique;
+/*font-style: oblique;*/
+ color: #e40038;
+ font-size: 20px;
+ text-align: left;
 }
